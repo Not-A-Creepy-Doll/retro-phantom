@@ -1,0 +1,43 @@
+{
+    "name": "Retro Phantom",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "Custom Keybind Extension": "github:Brohann3214/custom-keybind-extension#ce1cb5acda5cd438592e38da4aaab10b73b46c64",
+        "pxt-lantern": "github:riknoll/pxt-lantern#v0.1.2",
+        "arcade-mini-menu": "github:riknoll/arcade-mini-menu#v0.0.1",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.3",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.2.1",
+        "arcade-split-screen": "github:riknoll/arcade-split-screen#v0.0.3",
+        "Achievements": "github:UnsignedArduino/Achievements#a578c77dd75467b9b0b5238a9a31c5fdc427cb9d",
+        "adventure": "github:microsoft/arcade-tutorial-extensions/adventure#v0.0.16",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.12.59",
+        "tag": "v1.12.59",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/96c778852a9e2f8b1d87f0671c1891a410657993",
+        "target": "1.12.59",
+        "pxt": "8.5.69",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
